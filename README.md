@@ -2,7 +2,7 @@
 Based on pytoch, gradcam and gradcam + + are encapsulated into easy-to-use API, and some interesting tests are done with pre trained vgg16, alexnet, densenet 121, mobilenet, resnet18, squeezene and I made a very detailed comment on the code. Interested friends can give a star, thank you.
 
 ## How to run
-Open the notebook and run it directly.
+Open the notebook and run it directly. I've written GradCAM and the implementation of GradCAM into gradcam.py, and I'll just import it into the notebook and run it. ImageNet_labels.py contains the label information for ImageNet.
 
 ## Interesting experiments
 The following are the predicted results of vgg16, alexnet, densenet 121, mobilenet, resnet18, squeezene model and the heat map of gradcam + +. The prediction of each model is：  
